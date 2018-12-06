@@ -1,0 +1,4 @@
+Results: 
+Donor orbital energy = -3.042505232379283 eV 
+Rate Constant = 0.01103655010967739 ps^-1 
+Time Constant = 90.6080242523568 ps 
