@@ -9,3 +9,17 @@ Once the Fock matrix is block diagonalized, the eigenvectors are used to calcula
 This coupling is then used to compute electron transfer rates from a selected orbital on site b to all orbitals on site a. This calculation utilizes the electronic coupling from the donor orbital to all acceptor orbitals as well as their site energy differences. The reorganization energy needs to be input by the user. 
 
 The program will output plots of the most relevant data including the b_orbital coupling to every a acceptor orbital, the partitioned eigenvalues, the eT rate from b_orbital to every a acceptor orbital, and the time constant and population dynamics which result from the calculation. These results are also printed to output files for analysis in other programs. 
+
+To install:
+
+pip install fockCoupl/
+
+To run after installation, cd to directory with fock.dat and overlap.dat, then:
+
+fockCoupl
+
+If you don't want to install, just run the script in the same directory as data files as:
+
+python fockCoupl.py
+
+Requirements: NumPy, matplotlib
