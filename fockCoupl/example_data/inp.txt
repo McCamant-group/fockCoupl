@@ -1,0 +1,12 @@
+1399 # total number of basis functions
+988 # basis functions of fraction a
+411 # basis functions of fraction b
+192 # Donor orbital (fraction b)
+298 # Temperature
+700 # Reorganization energy (cm-1)
+0.01 # Timestep for dynamics (ps)
+50 # End time for dynamics (ps)
+0.05 # Gaussian width of acceptor levels (eV)
+5 # Range plus and minus to convolve acceptor levels with dist. (eV)
+1000 # Number of points in the distribution/convolution
+
